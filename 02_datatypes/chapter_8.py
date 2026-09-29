@@ -28,3 +28,21 @@ print(f"Ingredients are: {chai_ingredients}")
 sugar_levels = [1,2,3,4,5,6]
 print(f"Maximum sugar level is: {max(sugar_levels)}")
 print(f"Minimum sugar level is: {min(sugar_levels)}")
+
+# operator overloading
+
+base_flavour = ["water", "soda"]
+extra_flavor = ["strawberry"]
+full_liquid_mix = base_flavour + extra_flavor
+print(f"Full liquid mix: {full_liquid_mix }")
+
+strong_brew = ["black coffee", "H20"] * 3
+print(f"Strong brew: {strong_brew}")
+
+# bytearray
+raw_spice_data = bytearray(b"CINNAMON")
+new_raw_spice_data = raw_spice_data.replace(b"CINN", b"CARD")
+print(f"New raw data is: {new_raw_spice_data}")
+
+
+
