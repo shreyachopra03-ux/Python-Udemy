@@ -1,1 +1,1 @@
-Full stack AI with Python
+Full stack AI with Python.
